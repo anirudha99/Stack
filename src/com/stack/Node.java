@@ -11,7 +11,7 @@ public class Node <K> implements INode <K> {
 	
 	@Override
 	public K getKey() {
-		return null;
+		return key;
 	}
 	@Override
 	public void setKey(K key) {
@@ -20,7 +20,7 @@ public class Node <K> implements INode <K> {
 	}
 	@Override
 	public INode<K> getNext() {
-		return null;
+		return next;
 	}
 	@Override
 	public void setNext(INode<K> next) {

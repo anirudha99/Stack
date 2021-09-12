@@ -10,5 +10,13 @@ public class StackMain {
 		myStack.push(secondNode);
 		myStack.push(thirdNode);
 		myStack.printStack();
+		System.out.println("Top most element of the stack:"+myStack.checkTop());
+		System.out.println("Pop operations until stack is empty!!");
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
 	}
 }
