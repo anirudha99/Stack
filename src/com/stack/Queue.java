@@ -17,6 +17,10 @@ public class Queue {
 		Linkedlist.append(element);
 	}
 	
+	/**
+	 * Method to delete element
+	 * @return
+	 */
 	public INode<Integer> dequeue()
 	{
 		return Linkedlist.pop();
